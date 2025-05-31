@@ -4,6 +4,15 @@ class Circle
 {
     private double _radius;
 
+    public Circle()
+    {
+        _radius = 0.0;
+    }
+    public Circle(double radius)
+    {
+        // _radius = radius;
+        setRadius(radius);
+    }
     public void setRadius(double radius)
     {
         _radius = radius;
