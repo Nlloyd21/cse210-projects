@@ -7,7 +7,12 @@ class Program
 
         Console.WriteLine(myperson.GetPersonInformation());
 
-        Policeman myPoliceMan = new Policeman("Cooper", "Silver", 33, "club");
+        Policeman myPoliceMan = new Policeman("Cooper", "Silver", 33, "Bat");
         Console.WriteLine(myPoliceMan.GetPersonInformation());
+
+        Console.WriteLine(myPoliceMan.GetPersonInformation());
+
+        Doctor myDoctor = new Doctor("Bob", "Payne", 56, "Hammer");
+        Console.WriteLine(myDoctor.GetDoctorInformation());
     }
 }
