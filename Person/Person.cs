@@ -1,12 +1,12 @@
 using System.Security.Cryptography;
 
-class Person
+abstract class Person
 {
     private string _lastName;
     private string _firstName;
     private int _age;
 
-//costructor default//
+    //costructor default//
     public Person()
     {
         _lastName = "";
@@ -21,8 +21,9 @@ class Person
 
     }
 
-    public string GetPersonInformation()
+    public virtual string GetPersonInformation()
     {
         return $"{_firstName}, {_lastName}, Age: {_age}";
     }
+    public abstract double GetSalary();
 }
