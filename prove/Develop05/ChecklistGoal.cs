@@ -49,6 +49,6 @@ public class ChecklistGoal : Goal
 
     public override string SaveString()
     {
-        return $"Checklist Goal:{_name}:{_description}:{_points}:{_status}";
+        return $"Checklist Goal:{_name}:{_description}:{_points}:{_status}:{_targetCount}:{_currentCount}";
     }
 }
