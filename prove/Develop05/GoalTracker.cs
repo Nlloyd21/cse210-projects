@@ -83,7 +83,7 @@ public class GoalTracker
         if (!File.Exists(filename))
         {
             Console.WriteLine("File not found. Make sure the filename is correct.");
-            return; // Exit the method if file doesn't exist
+            return; 
         }
 
         
